@@ -250,6 +250,9 @@ offbody.append(hr,cartnextdiv);
 
       
 buybtn.innerText="Buy Now";
+buybtn.addEventListener("click",function(){
+    alert("Your order has been placed")
+});
 totalprice.innerText="Total=RS: ";
 
 // let initialtotal=0;
